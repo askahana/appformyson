@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    background: pink;
+    padding: 30px;
+}
+header #logo p{
+    font-family: "Sacramento";
+    font-weight: bold;
+    font-size: 2rem;
+}
+header #logo p span{
+    font-family: "Sacramento";
+    color: tomato;
+}
+
+
+header li{
+    display: inline-block;
+    list-style:none;
+    margin-left: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+}
+header nav ul li a:hover{
+    color: hsla(0, 0%, 0%, 0.438);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 10px;
+    
+}
+footer p span{
+    color: tomato;
+}
+
+
+/*Pokemon*/
+
+.pokemonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pokemonContainer p{
+    margin-top: 20px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.347);
+}
+.pokemonContainer #inputPokemon{
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.pokemonContainer .okBtn{
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background: rgb(55, 55, 236);
+    color: white;
+    border-radius: 5px;
+    border-bottom: 8px solid hsla(240, 90%, 12%, 0.66);
+    box-shadow: 0px 3px 4px black;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.pokemonContainer .okBtn:hover{
+    margin-top: 25px;
+    border-bottom: 3px solid hsla(240, 90%, 12%, 0.66);
+}
+
+.pokecard{
+    display: flex;
+    flex-direction: column;
+}
+#pokeSprite{
+    width: 150px;
+    margin-left: 40px;
+}
+/*COolor*/
+
+#colorMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#colorMain p{
+    font-size: 2rem;
+    width: 500px;
+    position: relative;
+    
+}
+#colorMain p input{
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+#colorMain #inputColor{
+    margin-top: 20px;
+    width: 200px;
+}
+#colorMain #colorText{
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+#colorMain .addBtn{
+    font-size: 2rem;
+    background: pink;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+#colorMain #todoLists .item{
+    list-style:none;
+    display: flex;
+    margin-top: 10px;
+    width: 500px;
+    background: yellow;
+    position: relative;
+    
+}
+#colorMain #todoLists .item .itemName{
+    font-size: 2rem;
+    text-align: left;
+    padding: 10px 20px;
+}
+#colorMain #todoLists .item .removeBtn{
+    font-size: 2rem;
+    background: rgb(112, 208, 240);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+}
+
+/*todolist*/
+#toDomain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#toDomain .inputBox{
+    margin-top: 20px;
+   
+}
+#toDomain input{
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+
+#toDomain .addBtn{
+    font-size: 2rem;
+    background: pink;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+
+#toDomain #todoLists .item{
+    list-style:none;
+    display: flex;
+    margin-top: 10px;
+    width: 500px;
+    background: yellow;
+    position: relative;
+    
+}
+#toDomain #todoLists .item .itemName{
+    font-size: 2rem;
+    text-align: left;
+    padding: 10px 20px;
+}
+#toDomain #todoLists .item .removeBtn{
+    font-size: 2rem;
+    background: rgb(112, 208, 240);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+}
