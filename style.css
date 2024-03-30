@@ -101,19 +101,21 @@ footer p span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin-top: 20px;
 }
 #colorMain p{
     font-size: 2rem;
     width: 500px;
     position: relative;
-    
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.293);
 }
 #colorMain p input{
     position: absolute;
     right: 0;
     margin-right: 5px;
     margin-top: 10px;
+    
 }
 #colorMain #inputColor{
     margin-top: 20px;
@@ -123,6 +125,8 @@ footer p span{
     margin-top: 20px;
     font-size: 2rem;
     padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px hsla(0, 0%, 0%, 0.222);
 }
 #colorMain .addBtn{
     font-size: 2rem;
@@ -130,6 +134,14 @@ footer p span{
     border: none;
     color: white;
     padding: 10px 20px;
+    border-bottom: 8px solid  rgb(237, 102, 124);
+    box-shadow: 0px 3px 4px black;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#colorMain .addBtn:hover{
+    border-bottom: 2px solid  rgb(237, 102, 124);
+    margin-top: 30px;
 }
 
 #colorMain #todoLists .item{
@@ -205,4 +217,20 @@ footer p span{
     padding: 10px 20px;
     position: absolute;
     right: 0;
+}
+.quizcontainer{
+    text-align: center;
+    margin-top: 50px;
+}
+#js-question{
+   margin-bottom: 20px;
+   /*background: aquamarine;*/
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.quizcontainer .selections .btn{
+    font-size: 2rem;
+    padding: 10px 20px;
+    font-family: monospace;
+    margin: 10px;
 }
